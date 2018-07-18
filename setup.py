@@ -24,9 +24,11 @@ setup(name='pyitgw433',
       license='Apache 2.0',
       packages=['pyitgw433'],
       include_package_data=True,
-      scripts=[],
+      scripts=[ 'bin/itgw433-capture' ],
       entry_points={
-          'console_scripts': [],
+          'console_scripts': [
+              'itgw433-parse=pyitgw433.cli:parse'
+          ],
       },
       setup_requires=[
           'pytest-runner'
