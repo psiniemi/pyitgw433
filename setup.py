@@ -15,10 +15,10 @@ import sys
 from setuptools import setup
 
 setup(name='pyitgw433',
-      version='0.1',
+      version='0.5',
       description='Library and tools for talking with InterTechno ITGW-433 lan gateway',
       url='http://github.com/psiniemi/pyitgw433',
-      download_url='https://github.com/psiniemi/pyitgw433/tarball/0.1',
+      download_url='https://github.com/psiniemi/pyitgw433/tarball/0.5',
       author='Pasi Niemi',
       author_email='pasi.niemi@iki.gi',
       license='Apache 2.0',
